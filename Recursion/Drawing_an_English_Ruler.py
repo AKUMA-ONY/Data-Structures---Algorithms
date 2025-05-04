@@ -27,3 +27,5 @@ def draw_ruler(num_inches, major_length):
     for j in range(1, 1 + num_inches):
         draw_interval(major_length - 1)  # Draw interior ticks for inch
         draw_line(major_length, str(j))  # Draw inch j line and label
+
+draw_interval(3)  # Test
